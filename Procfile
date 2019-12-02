@@ -1,1 +1,1 @@
-web: gunicorn ZisakuZitenRestServer.wsgi:application -b 0.0.0.0:$PORT
+web: gunicorn ZisakuZitenRestServer.wsgi:application -b 127.0.0.1:$PORT
