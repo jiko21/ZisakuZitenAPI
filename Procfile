@@ -1,1 +1,1 @@
-web: gunicorn ZisakuZitenRestServer.wsgi --log-file -
+web: gunicorn ZisakuZitenRestServer.wsgi:application -b 0.0.0.0:$PORT
